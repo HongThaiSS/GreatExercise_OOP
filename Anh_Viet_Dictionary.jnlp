@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Anh_Viet_Dictionary.jnlp">
+  <information>
+    <title>Anh_Viet_Dictionary</title>
+    <vendor>Nguy?n Thúy</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-ea "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Anh_Viet_Dictionary.jar" size="3022" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Anh_Viet_Dictionary" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="anh_viet_dictionary.Anh_Viet_Dictionary"  name="Anh_Viet_Dictionary" />
+  <update check="always"/>
+</jnlp>
